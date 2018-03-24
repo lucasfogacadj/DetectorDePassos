@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Detector De Passos</string>
+    <string name="desc_step">Icone Do Detector</string>
+    <string name="botao">Resetar</string>
+</resources>
