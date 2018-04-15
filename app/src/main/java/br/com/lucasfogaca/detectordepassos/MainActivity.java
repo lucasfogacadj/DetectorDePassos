@@ -22,7 +22,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     private int totalPassos = 0;
 
+    private TextView totalCalorias;
+
     private Button btnReset;
+
+    private double calorias;
 
 
     @Override
@@ -33,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         tvTotalPassos = (TextView) findViewById(R.id.tvTotalPassos);
 
         btnReset = (Button) findViewById(R.id.idBtnReset);
+
+        totalCalorias  = (TextView) (findViewById(R.id.tvCalorias));
 
         //usa o getSystemService para acessar os sensores (fazendo o cast)
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -48,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 tvTotalPassos.setText("0");
             }
         });
+
 
     }
 
@@ -77,6 +84,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if(sensor.getType() == Sensor.TYPE_STEP_DETECTOR){
             totalPassos++;
             tvTotalPassos.setText(""+totalPassos);
+
+            calorias = totalPassos/20;
+
+            totalCalorias.setText(String.format("%.2f", calorias));
+
         }
 
     }

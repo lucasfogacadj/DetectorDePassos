@@ -2,4 +2,5 @@
     <string name="app_name">Detector De Passos</string>
     <string name="desc_step">Icone Do Detector</string>
     <string name="botao">Resetar</string>
+    <string name="queima">Calorias perdidas</string>
 </resources>
