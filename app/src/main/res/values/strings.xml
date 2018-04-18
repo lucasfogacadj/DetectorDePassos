@@ -3,4 +3,8 @@
     <string name="desc_step">Icone Do Detector</string>
     <string name="botao">Resetar</string>
     <string name="queima">Calorias perdidas</string>
+    <string name="caloria">Kcal</string>
+    <string name="dCaloria">Caloria</string>
+    <string name="sinal">-</string>
+    <string name="dsinal">sinal de menos</string>
 </resources>
