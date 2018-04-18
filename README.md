@@ -9,7 +9,7 @@ Android 4.4 também adicionou compatibilidade de plataforma para dois novos sens
 
 O detector de passos analisa os dados do acelerômetro para reconhecer quando o usuário está dando um passo e aciona um evento a cada passo. O contador de passo acompanha o número total de passos desde a última reinicialização do dispositivo e aciona um evento a cada mudança na contagem de passos. Como a lógica e o gerenciamento do sensor foram embutidos na plataforma e no hardware relacionado, você não precisa ter algoritmos de detecção próprios no aplicativo.
 
-[![Tutorial de Desenvolvimento](https://drive.google.com/file/d/1iE20oN7zlypzuPQlv2Iiv9-KcSSuqhih/view?usp=sharing)](https://youtu.be/pX_dALJacXk)
+[![Tutorial de Desenvolvimento](https://uploaddeimagens.com.br/imagens/captura_de_tela_2018-04-18_as_09-02-51-png)](https://www.youtube.com/watch?v=pX_dALJacXk&feature=youtu.be)
 
 # Desenvolvido em Java
 # Boas práticas de programação
