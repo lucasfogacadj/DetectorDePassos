@@ -1,6 +1,6 @@
 # Detector De Passos
 
-![alt text](https://lucasfogacadev.000webhostapp.com/wp-content/uploads/2018/04/passos.png)
+![alt text](https://lucasfogacadev.000webhostapp.com/wp-content/uploads/2018/04/ppppp.png)
 Baixar APK: https://goo.gl/xsJfGr
 
 App Detector de passos para Android
